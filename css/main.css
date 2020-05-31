@@ -15,6 +15,7 @@
   height: -moz-fit-content;
   height: fit-content;
   font-weight: 500;
+  font-size: 18px;
 }
 body {
   color: #050500;
@@ -49,6 +50,7 @@ nav a {
   height: -moz-fit-content;
   height: fit-content;
   font-weight: 500;
+  font-size: 18px;
 }
 nav a:hover {
   color: #ee252f;
