@@ -55,7 +55,7 @@ nav {
 footer {
     height: @footer-height;
     background-color: @black;
-    padding: @pad-25;
+    padding: @pad-30;
     border-top: 10px solid @yellow;
     .footer-logo {
         height: 100%;
@@ -75,16 +75,21 @@ footer {
     height: 390px;
     background-size: cover;
     background-position: 0% 58%;
+    border-radius: 0;
 
     img {
         width: 30%;
     }
 
     @media (max-width: 1024px) {
-        background-position: center;
+        background-position: @center;
         img {
             width: 50%;
         }
+    }
+
+    @media (max-width: 767px) {
+        height: 300px;
     }
 
     @media (max-width: 550px) {
@@ -106,6 +111,8 @@ article {
         .side-image {
             display: none;
         }
+
+        padding: @pad-30 0;
     }
 }
 
