@@ -8,16 +8,13 @@
   border-radius: 8px;
   border: none;
 }
-.footer-logo {
-  height: 65%;
-  margin-top: 40px;
-}
 .nav-items {
   color: #080801;
   margin: 15px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  font-weight: 500;
 }
 .btn-primary {
   background-color: #f8df1f;
@@ -48,15 +45,16 @@ nav a {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  font-weight: 500;
 }
 nav a:hover {
   color: #ee252f;
 }
 footer {
-  height: 200px;
+  height: 150px;
   background-color: #080801;
+  padding: 25px;
 }
-.footer-logo {
-  height: 65%;
-  margin-top: 40px;
+footer .footer-logo {
+  height: 100%;
 }
