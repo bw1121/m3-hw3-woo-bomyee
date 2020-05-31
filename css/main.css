@@ -71,6 +71,9 @@ nav a {
 nav a:hover {
   color: #ee252f;
 }
+nav a:last-child:hover {
+  text-decoration: underline;
+}
 @media (max-width: 767px) {
   nav a {
     margin: 0;
