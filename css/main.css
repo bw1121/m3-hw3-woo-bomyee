@@ -17,9 +17,22 @@
   font-weight: 500;
   font-size: 18px;
 }
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 body {
   color: #050500;
   font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2 .lowercase {
+  text-transform: lowercase;
 }
 .btn-primary {
   background-color: #f8df1f;
@@ -63,4 +76,13 @@ footer {
 }
 footer .footer-logo {
   height: 100%;
+}
+article {
+  padding: 60px 0;
+}
+article .side-image {
+  text-align: center;
+}
+.bg-gray {
+  background-color: #f3f3f3;
 }
