@@ -7,6 +7,7 @@
   font-weight: 500;
   border-radius: 8px;
   border: none;
+  padding: 13px 28px;
 }
 .nav-items {
   color: #050500;
@@ -43,6 +44,7 @@ h2 .lowercase {
   font-weight: 500;
   border-radius: 8px;
   border: none;
+  padding: 13px 28px;
 }
 .btn-primary:hover {
   background-color: #080801;
@@ -76,6 +78,12 @@ footer {
 }
 footer .footer-logo {
   height: 100%;
+}
+.jumbotron {
+  margin-bottom: 0;
+}
+.jumbotron img {
+  width: 30%;
 }
 article {
   padding: 60px 0;
