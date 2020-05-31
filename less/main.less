@@ -9,3 +9,31 @@
         color: @yellow;
     }
 }
+
+.red {
+    color: @red !important;
+    text-transform: @uppercase;
+}
+
+//Nav & Footer 
+nav {
+    height: @nav-height;
+    background-color: @yellow;
+    color: @black;
+
+    a {
+        .nav-items();
+        &:hover {
+            color: @red;
+        }
+    }
+}
+
+footer {
+    height: @footer-height;
+    background-color: @black;
+}
+
+.footer-logo {
+    .footer-logo();
+}
