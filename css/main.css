@@ -54,6 +54,7 @@ footer {
   height: 150px;
   background-color: #080801;
   padding: 25px;
+  border-top: 10px solid #f8df1f;
 }
 footer .footer-logo {
   height: 100%;
