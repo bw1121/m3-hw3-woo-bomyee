@@ -102,11 +102,29 @@ footer .footer-logo {
 .jumbotron img {
   width: 30%;
 }
+@media (max-width: 1024px) {
+  .jumbotron {
+    background-position: center;
+  }
+  .jumbotron img {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .jumbotron img {
+    width: 80%;
+  }
+}
 article {
   padding: 60px 0;
 }
 article .side-image {
   text-align: center;
+}
+@media (max-width: 767px) {
+  article .side-image {
+    display: none;
+  }
 }
 .bg-gray {
   background-color: #f3f3f3;
