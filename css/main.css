@@ -1,3 +1,4 @@
+/* responsive font */
 .button {
   background-color: #f8df1f;
   color: #050500;
@@ -69,6 +70,15 @@ nav a {
 }
 nav a:hover {
   color: #ee252f;
+}
+@media (max-width: 767px) {
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+  nav .nav-link {
+    padding: .6rem;
+  }
 }
 footer {
   height: 150px;
